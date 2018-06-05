@@ -21,7 +21,7 @@
         <device Dname="MDR1986VE91">
           <processor  Dcore="Cortex-M3" DcoreVersion="r0p0" Dfpu="NO_FPU" Dmpu="NO_MPU" Dendian="Little-endian" Dclock="80000000"/>
           <compile    header="Libraries/CMSIS/CM3/DeviceSupport/MDR32F9Qx/inc/MDR32Fx.h" define="USE_MDR32F9Q1_Rev1"/>
-          <debug      svd="IDE/keil/SFD/MDR1986VE91.svd"/>
+          <debug      svd="IDE/keil/SVD/MDR1986VE91.svd"/>
           <memory     id="IROM1"                          start="0x08000000"  size="0x20000"    startup="1"   default="1"/>
           <memory     id="IRAM1"                          start="0x20000000"  size="0x8000"     init   ="0"   default="1"/>
           <algorithm  name="Flash/1986VE9x.FLM"           start="0x08000000"  size="0x20000" RAMstart="0x20000000" RAMsize="0x8000" default="1"/>
@@ -79,7 +79,7 @@
         <device Dname="MDR1986VE92">
           <processor  Dcore="Cortex-M3" DcoreVersion="r0p0" Dfpu="0" Dmpu="0" Dendian="Little-endian" Dclock="80000000"/>
           <compile    header="Libraries/CMSIS/CM3/DeviceSupport/MDR32F9Qx/inc/MDR32Fx.h" define="USE_MDR32F9Q2_Rev1"/>
-          <debug      svd="IDE/keil/SFD/MDR1986VE92.svd"/>
+          <debug      svd="IDE/keil/SVD/MDR1986VE92.svd"/>
           <memory     id="IROM1"                          start="0x08000000"  size="0x20000"    startup="1"   default="1"/>
           <memory     id="IRAM1"                          start="0x20000000"  size="0x8000"     init   ="0"   default="1"/>
           <algorithm  name="Flash/1986VE9x.FLM"           start="0x08000000"  size="0x20000" RAMstart="0x20000000" RAMsize="0x8000" default="1"/>
@@ -137,7 +137,7 @@
         <device Dname="MDR1986VE93">
           <processor  Dcore="Cortex-M3" DcoreVersion="r0p0" Dfpu="0" Dmpu="0" Dendian="Little-endian" Dclock="80000000"/>
           <compile    header="Libraries/CMSIS/CM3/DeviceSupport/MDR32F9Qx/inc/MDR32Fx.h" define="USE_MDR32F9Q3_Rev1"/>
-          <debug      svd="IDE/keil/SFD/MDR1986VE93.svd"/>
+          <debug      svd="IDE/keil/SVD/MDR1986VE93.svd"/>
           <memory     id="IROM1"                          start="0x08000000"  size="0x20000"    startup="1"   default="1"/>
           <memory     id="IRAM1"                          start="0x20000000"  size="0x8000"     init   ="0"   default="1"/>
           <algorithm  name="Flash/1986VE9x.FLM"           start="0x08000000"  size="0x20000" RAMstart="0x20000000" RAMsize="0x8000" default="1"/>
@@ -195,7 +195,7 @@
         <device Dname="MDR1986BE1T">
           <processor  Dcore="Cortex-M1" DcoreVersion="r0p0" Dfpu="0" Dmpu="0" Dendian="Little-endian" Dclock="144000000"/>
           <compile    header="Libraries/CMSIS/CM1/DeviceSupport/MDR1986VE1T/inc/MDR1986VE1T.h" define="USE_MDR1986VE1T"/>
-          <debug      svd="IDE/keil/SFD/MDR1986VE1T.svd"/>
+          <debug      svd="IDE/keil/SVD/MDR1986VE1T.svd"/>
           <memory     id="IROM1"                          start="0x00000000"  size="0x20000"    startup="1"   default="1"/>
           <memory     id="IRAM1"                          start="0x20000000"  size="0x8000"     init   ="0"   default="1"/>
           <memory     id="IRAM2"                          start="0x20100000"  size="0x4000"     init   ="0"   default="1"/>
@@ -256,7 +256,7 @@
         <device Dname="MDR1986BE3T">
           <processor  Dcore="Cortex-M1" DcoreVersion="r0p0" Dfpu="0" Dmpu="0" Dendian="Little-endian" Dclock="80000000"/>
           <compile    header="Libraries/CMSIS/CM1/DeviceSupport/MDR1986VE3/inc/MDR1986VE3.h" define="USE_MDR1986VE3"/>
-          <debug      svd="IDE/keil/SFD/MDR1986BE3T.svd"/>
+          <debug      svd="IDE/keil/SVD/MDR1986BE3T.svd"/>
           <memory     id="IROM1"                          start="0x00000000"  size="0x20000"    startup="1"   default="1"/>
           <memory     id="IRAM1"                          start="0x20000000"  size="0x8000"     init   ="0"   default="1"/>
           <memory     id="IRAM2"                          start="0x20100000"  size="0x4000"     init   ="0"   default="1"/>
@@ -318,7 +318,7 @@
             <device Dname="MDR1986BE4">
               <processor  Dcore="Cortex-M0" DcoreVersion="r0p0" Dfpu="0" Dmpu="0" Dendian="Little-endian" Dclock="36000000"/>
               <compile    header="Libraries/CMSIS/CM0/DeviceSupport/MDR1986BE4/inc/MDR1986BE4.h" define="USE_MDR1986BE4"/>
-              <debug      svd="IDE/keil/SFD/MDR1986BE4.svd"/>
+              <debug      svd="IDE/keil/SVD/MDR1986BE4.svd"/>
               <memory     id="IROM1"                          start="0x00000000"  size="0x20000"    startup="1"   default="1"/>
               <memory     id="IRAM1"                          start="0x20000000"  size="0x4000"     init   ="0"   default="1"/>
               <algorithm  name="Flash/1986BE4.FLM"            start="0x00000000"  size="0x20000"    RAMstart="0x20000000" RAMsize="0x4000" default="1"/>

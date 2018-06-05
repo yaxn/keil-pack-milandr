@@ -1,0 +1,4 @@
+*.elf
+*.mk
+makefile
+/source/

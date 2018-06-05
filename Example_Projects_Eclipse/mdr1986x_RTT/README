@@ -1,0 +1,87 @@
+     mdr1986x_RTT
+     __   ____  ___    __ ___  ___   __   __
+    | |\/| |  )| | )  / |( ( )( ( ) / /   \ \_/
+    |_|  |_|_/ |_| \__|_| /_/ (_(_)(_)_)__/_/ \
+
+    ___             ______________________________
+    ___ WHAT IS IT? ______________________________
+
+    An example Eclipse project of using SEGGER Real Time Transfer (RTT) with
+    the following microcontrollers of Milandr 1986x series:
+
+        1986BE9x (MDR32F9Qx)
+        1986BE1 (MDR32F1)
+        1986BE3
+
+    In case of 1986BE1 and 1986BE3, shared access to RTT buffer is operating
+    correctly only if EEPROM Read Delay (EEPROM_CMD_DELAY) equals to zero,
+    for this reason, Core Clock Frequency is limited to 25 MHz.
+
+    ___       ____________________________________
+    ___ F A Q ____________________________________
+
+    * * * How to run RTT terminal
+
+    Menu → Run → External Tools → RTT
+    or Toolbar → External Tools → RTT
+    for the first time choose: External Tools Configuration...
+
+    If you're under debugging session:
+    Menu → Run → External Tools → Telnet
+    or Toolbar → External Tools → Telnet
+
+    * * * How to start debugging session
+
+    Menu → Run → Debug History → mdr1986x_RTT
+    or Toolbar → Debug → mdr1986x_RTT
+    for the first time choose: Debug Configuration...
+
+    * * * How to flash the program
+
+    Menu → Run → External Tools → JFlash
+    or Toolbar → External Tools → JFlash
+
+    ___                    _______________________
+    ___ TOOLCHAIN SNAPSHOT _______________________
+
+    Eclipse IDE for C/C++ Developers
+    Neon.2 Release (4.6.2)
+    20161208-0600
+    https://eclipse.org/downloads/
+
+    GNU Tools ARM Embedded
+    4.9 2015q3
+    https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/
+
+    Python 2
+    2.7.13 [MSC v.1500 32 bit (Intel)]
+    https://www.python.org/downloads/
+
+    SEGGER J-Link
+    6.12
+    https://www.segger.com/downloads/jlink/
+
+    GNU ARM Eclipse Windows Build Tools
+    2.8-201611221915
+    https://github.com/gnuarmeclipse/windows-build-tools/releases/
+
+    GNU ARM Eclipse Plug-ins
+    3.2.1-201701141320
+    http://gnuarmeclipse.github.io/
+
+        GNU ARM C/C++ Cross Compiler
+        2.2.1.201701141320
+
+        GNU ARM C/C++ J-Link Debugging
+        4.1.2.201701141320
+
+    Milandr MCU 1986x CMSIS Pack
+    1.4.2
+    20170215-0001
+    https://github.com/in4lio/mdr1986x-pack-repo/
+
+    ___           ________________________________
+    ___ READ MORE ________________________________
+
+    http://gnuarmeclipse.github.io/install/
+    https://github.com/in4lio/mdr1986x-JFlash/

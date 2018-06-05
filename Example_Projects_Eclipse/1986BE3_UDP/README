@@ -1,0 +1,33 @@
+    1986BE3_UDP
+     __   ____  ___    __ ___  ___   __   __
+    | |\/| |  )| | )  / |( ( )( ( ) / /   \ \_/
+    |_|  |_|_/ |_| \__|_| /_/ (_(_)(_)_)__/_/ \
+
+    ___             ______________________________
+    ___ WHAT IS IT? ______________________________
+
+    An implementation of UDP, ARP and ICMP (ping only) for MCU 1986BE3
+    (rev. 1436 or later) using FIFO mode of Ethernet controller.
+
+    The example Eclipse project demonstrates an exchange of UDP datagrams
+    between Ethernet interfaces, as well as a response to ping.
+
+    ___       ____________________________________
+    ___ F A Q ____________________________________
+
+    * * * How to run KiTTY terminal
+
+    Menu → Run → External Tools → Telnet
+    or Toolbar → External Tools → Telnet
+    for the first time choose: External Tools Configuration...
+
+    * * * How to start debugging session
+
+    Menu → Run → Debug History → 1986BE3_UDP
+    or Toolbar → Debug → 1986BE3_UDP
+    for the first time choose: Debug Configuration...
+
+    * * * How to flash the program
+
+    Menu → Run → External Tools → JFlash
+    or Toolbar → External Tools → JFlash

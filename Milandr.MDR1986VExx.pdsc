@@ -423,11 +423,11 @@
       <description>System Startup for MDR1986VE9x device series</description>
       <files>
         <!-- startup files -->
-        <file category="source" name="Libraries/CMSIS/CM3/DeviceSupport/MDR32F9Qx/startup/arm/startup_MDR32F9Qx.s" attr="config"/>
+        <file category="source" name="Libraries/CMSIS/CM3/DeviceSupport/MDR32F9Qx/startup/arm/startup_MDR32F9Qx.s" attr="config" version="1.00"/>
         <!-- system file -->
-        <file category="source" name="Libraries/CMSIS/CM3/DeviceSupport/MDR32F9Qx/startup/system_MDR32F9Qx.c" attr="config"/>
+        <file category="source" name="Libraries/CMSIS/CM3/DeviceSupport/MDR32F9Qx/startup/system_MDR32F9Qx.c" attr="config" version="1.4.0"/>
         <!-- header file-->
-        <file category="header" name="Libraries/CMSIS/CM3/DeviceSupport/MDR32F9Qx/startup/system_MDR32F9Qx.h" attr="config"/>
+        <file category="header" name="Libraries/CMSIS/CM3/DeviceSupport/MDR32F9Qx/startup/system_MDR32F9Qx.h" attr="config" version="1.4.0"/>
         <!-- header file-->
         <file category="header" name="Libraries/CMSIS/CM3/CoreSupport/core_cm3.h"/>
         <!-- header file-->
@@ -441,11 +441,11 @@
       <description>System Startup for MDR1986VE1T device series</description>
       <files>
         <!-- startup files -->
-        <file category="source" name="Libraries/CMSIS/CM1/DeviceSupport/MDR1986VE1T/startup/arm/startup_MDR1986VE1T.s" attr="config"/>
+        <file category="source" name="Libraries/CMSIS/CM1/DeviceSupport/MDR1986VE1T/startup/arm/startup_MDR1986VE1T.s" attr="config" version="1.00"/>
         <!-- system file -->
-        <file category="source" name="Libraries/CMSIS/CM1/DeviceSupport/MDR1986VE1T/startup/system_MDR1986VE1T.c" attr="config"/>
-        <!-- header file-->
-        <file category="header" name="Libraries/CMSIS/CM1/DeviceSupport/MDR1986VE1T/startup/system_MDR1986VE1T.h" attr="config"/>
+        <file category="source" name="Libraries/CMSIS/CM1/DeviceSupport/MDR1986VE1T/startup/system_MDR1986VE1T.c" attr="config" version="1.4.0"/>
+        <!-- header file-->                                                                                                     
+        <file category="header" name="Libraries/CMSIS/CM1/DeviceSupport/MDR1986VE1T/startup/system_MDR1986VE1T.h" attr="config" version="1.4.0"/>
         <!-- header file-->
         <file category="header" name="Libraries/CMSIS/CM1/CoreSupport/core_cm1.h"/>
         <!-- system file -->
@@ -460,11 +460,11 @@
       <description>System Startup for MDR1986VE3T device series</description>
       <files>
         <!-- startup files -->
-        <file category="source" name="Libraries/CMSIS/CM1/DeviceSupport/MDR1986VE3/startup/arm/startup_MDR1986VE3.s" attr="config"/>
+        <file category="source" name="Libraries/CMSIS/CM1/DeviceSupport/MDR1986VE3/startup/arm/startup_MDR1986VE3.s" attr="config" version="1.00"/>
         <!-- system file -->
-        <file category="source" name="Libraries/CMSIS/CM1/DeviceSupport/MDR1986VE3/startup/system_MDR1986VE3.c" attr="config"/>
+        <file category="source" name="Libraries/CMSIS/CM1/DeviceSupport/MDR1986VE3/startup/system_MDR1986VE3.c" attr="config" version="1.4.0"/>
         <!-- header file-->
-        <file category="header" name="Libraries/CMSIS/CM1/DeviceSupport/MDR1986VE3/startup/system_MDR1986VE3.h" attr="config"/>
+        <file category="header" name="Libraries/CMSIS/CM1/DeviceSupport/MDR1986VE3/startup/system_MDR1986VE3.h" attr="config" version="1.4.0"/>
         <!-- header file-->
         <file category="header" name="Libraries/CMSIS/CM1/CoreSupport/core_cm1.h"/>
         <!-- header file-->
@@ -476,11 +476,11 @@
       <description>System Startup for MDR1986VE4 device series</description>
       <files>
         <!-- startup files -->
-        <file category="source" name="Libraries/CMSIS/CM0/DeviceSupport/MDR1986VE4/startup/arm/startup_MDR1986VE4.s" attr="config"/>
+        <file category="source" name="Libraries/CMSIS/CM0/DeviceSupport/MDR1986VE4/startup/arm/startup_MDR1986VE4.s" attr="config"  version="1.1"/>
         <!-- system file -->
-        <file category="source" name="Libraries/CMSIS/CM0/DeviceSupport/MDR1986VE4/startup/system_MDR1986VE4.c" attr="config"/>
+        <file category="source" name="Libraries/CMSIS/CM0/DeviceSupport/MDR1986VE4/startup/system_MDR1986VE4.c" attr="config" version="1.4.0"/>
         <!-- header file-->
-        <file category="header" name="Libraries/CMSIS/CM0/DeviceSupport/MDR1986VE4/startup/system_MDR1986VE4.h" attr="config"/>
+        <file category="header" name="Libraries/CMSIS/CM0/DeviceSupport/MDR1986VE4/startup/system_MDR1986VE4.h" attr="config" version="1.4.0"/>
         <!-- header file-->
         <file category="header" name="Libraries/CMSIS/CM0/CoreSupport/core_cm0.h"/>
         <!-- header file-->

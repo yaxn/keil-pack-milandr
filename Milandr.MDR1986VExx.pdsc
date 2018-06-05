@@ -6,6 +6,9 @@
   <description>Milandr MDR1986VExx Series Device Support, Drivers and Examples</description>
 
   <releases>
+	<release version="1.5.1">
+      20180605, Update Pack Description File, and updated MCU names. Git repo https://github.com/yaxn/keil-pack-milandr
+    </release>
     <release version="1.4.2">
       20180428-0012, Updated emdr1986x-std-per-lib
     </release>
